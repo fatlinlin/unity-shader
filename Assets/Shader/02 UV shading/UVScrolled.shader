@@ -40,10 +40,8 @@
 			half4 c = tex2D (_MainTex , scrolledUV);
 			o.Albedo = c.rgb * _MainTint;
 			o.Alpha = c.a;
-        }  
-          
-        
-          
+        }
+
         ENDCG  
     }   
     FallBack "Diffuse" 
