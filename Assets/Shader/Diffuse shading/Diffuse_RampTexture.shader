@@ -34,7 +34,8 @@
 		{  
 			float difLight = dot (s.Normal, lightDir);  
 			float rimLight = dot (s.Normal, viewDir);  
-			float3 ramp = tex2D(_RampTex, float2(difLight, rimLight)).rgb;  
+			float hLambert = difLight *0.5 + 0.5;
+			float3 ramp = tex2D(_RampTex, float2(hLambert, rimLight)).rgb;  
       
 			float4 col;  
 			col.rgb = s.Albedo * _LightColor0.rgb * (ramp);  
