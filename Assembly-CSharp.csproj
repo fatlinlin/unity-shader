@@ -49,6 +49,7 @@
      <Compile Include="Assets\Script\02 UV shading\UVSprite02.cs" />
      <None Include="Assets\Shader\02 UV shading\UVSprite.shader" />
      <None Include="Assets\Shader\02 UV shading\UVScrolled.shader" />
+     <None Include="Assets\Shader\02 UV shading\UVNormalTex.shader" />
      <None Include="Assets\Shader\02 UV shading\UVSprite02.shader" />
      <None Include="Assets\Shader\02 UV shading\UVTexture.shader" />
      <None Include="Assets\Shader\01 Diffuse shading\Diffuse_HalfLambert.shader" />
